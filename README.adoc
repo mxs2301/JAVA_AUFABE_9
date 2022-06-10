@@ -1,1 +1,7 @@
 = Java Aufgabe 9 - Thema Textverarbeitung
+
+*To-Do*
+
+- [ ] Aufgabenstellung lesen
+- [ ] Aufgaben runterbrechen
+- [ ] Tests schreiben
