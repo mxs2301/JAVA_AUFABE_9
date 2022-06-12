@@ -14,8 +14,11 @@ public class Woerterbuch{
 			map.put(5, "Algorithmen");
 
 			for(String eintrag: map.values()){
-				System.out.println(eintrag);
+				System.out.print(eintrag + " ");
 			}
+
+			System.out.println();
+
 		}
 
 	}
