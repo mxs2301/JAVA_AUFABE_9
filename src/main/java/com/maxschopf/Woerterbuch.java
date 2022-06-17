@@ -8,17 +8,14 @@ public class Woerterbuch{
 	public static class TreeMapTest{
 
 		public static void print(){
-			Map<Integer, String> map = new TreeMap<>();
-			map.put(42, "Datenstruktur");
-			map.put(8, "und");
-			map.put(5, "Algorithmen");
+			Map<String, Integer> map = new TreeMap<>();
+			map.put("Datenstruktur", 42);
+			map.put("und", 8);
+			map.put("Algorithmen", 5);
 
-			for(String eintrag: map.values()){
-				System.out.print(eintrag + " ");
-			}
 
-			System.out.println();
-
+			System.out.println(map.entrySet());
+			System.out.println(map);
 		}
 
 	}
