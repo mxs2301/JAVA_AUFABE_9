@@ -23,19 +23,23 @@ public class Woerterbuch{
 			ArrayList<Integer> integers = new ArrayList<>();
 			ArrayList<Integer> count = new ArrayList<>();
 
+			Map<String, Integer> book = new TreeMap<>();
 
 			for(Map.Entry<String, Integer> eingabe : map.entrySet()){
 				strings.add(eingabe.getKey());
 				integers.add(eingabe.getValue());
-				count.add(loop);
-				counter++;
+				
+				book.put(eingabe.getKey(), loop);
 			}
 
 			
-
+			/*
 			for(int j = 0; j<strings.size(); j++){
 				System.out.println("#"+strings.get(j) + "#" + " kam im text so oft vor: " + count.get(j));
-			}
+			} */
+
+			System.out.println(book);
+
 
 		}
 
